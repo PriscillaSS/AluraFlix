@@ -1,0 +1,109 @@
+.cuarto-video{
+    background-color: #262626;
+    font-family:"Comic Neue";
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+
+.detalles-video{
+    display: flex;
+    gap: 70px;
+}
+
+.descripcion-video{
+    color:aliceblue;
+    font-family:"Comic Neue";
+}
+.cuarto-video h1{
+    font-size: 45px;
+}
+
+.cuarto-video img{
+    width: 360px;
+    border-radius: 10px;
+}
+
+.video-principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-width: 7px;
+    border-style: double;
+    border-color: azure;
+    padding: 3px 2px;
+    --timing: linear(0, 0.3, 0.75, 1);
+    background-color: #161619;
+    color: #fff;
+    border-image-source: conic-gradient(from var(--a), #be92de, #8c0d8c, rgb(105, 158, 255));
+    border-image-slice: 1 1 1 1;
+    border-image-width: 5.25rem;
+    animation: move 2s infinite var(--timing);
+
+    &.fill {
+        border-image-slice: 1 1 1 1 fill;
+    }
+}
+
+@keyframes move {
+    from {
+        --a: 0deg;
+    }
+
+    to {
+        --a: 360deg;
+    }
+}
+
+@property --a {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+
+@media (max-width: 1700px){
+    .detalles-video img{
+        height: 300px;
+    }
+    .video-principal{
+        width: 500px;
+    }
+
+    iframe{
+        width: 500px;
+    }
+}
+
+@media (max-width: 730px){
+
+    .detalles-video img{
+        display: none;
+    }
+    .video-principal{
+        width: 500px;
+    }
+
+    iframe{
+        width: 500px;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .detalles-video img{
+        display: none;
+    }
+    .video-principal{
+        width: 300px;
+    }
+
+    iframe{
+        width: 300px;
+    }
+
+}

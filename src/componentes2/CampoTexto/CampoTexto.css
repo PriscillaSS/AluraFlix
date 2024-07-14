@@ -1,0 +1,35 @@
+.campo-texto{
+    margin: 24px 0;
+    width: 500px;
+
+}
+
+.campo-texto label{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15PX 0;
+    font-family:"Comic Neue";
+    
+}
+
+.campo-texto input{
+    color: azure;
+    width: 100%;
+    background: #010014;
+    height: 50%;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:"Comic Neue";
+}
+
+
+@media (max-width: 730px){
+    .campo-texto{
+ 
+        width: 120%;
+    
+    }
+    
+}

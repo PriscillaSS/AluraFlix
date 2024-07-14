@@ -1,0 +1,22 @@
+.header{
+    background-color: #000016;
+    padding: 40px 40px;
+    display: flex;
+    border-bottom-width: 5px;
+    border-bottom-style: double;
+    border-bottom-color: aqua;
+}
+
+
+
+@media (max-width: 1700px){
+    .header img{
+        margin:20px 120px;
+     }
+}
+
+@media (max-width: 730px){
+    .header img{
+        display: none;
+     }
+}

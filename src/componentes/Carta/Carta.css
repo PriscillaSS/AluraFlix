@@ -1,0 +1,37 @@
+.carta{
+    width: 278px;
+    margin-bottom: 24px;
+    background-color: #000016;
+    margin: 25px 10px;
+    border-radius: 20px;
+}
+
+.carta h3{
+    color:#fff;
+    margin: 7px 1px -12px;
+}
+
+
+.carta img {
+    border-radius: 20px 20px 0 0;
+    width: 271px;
+    padding: 3px 0px;
+  
+}
+
+.delete{
+    width: 70px;
+    color: #fff;
+    background: none;
+    margin: 12px;
+    border-radius: 10px;
+    background-color: #9b0b0b;
+    border: none;
+    display: flex;
+
+}
+
+.delete:hover{
+    box-shadow: 1px 1px 10px 2px #ff3232;
+    cursor: pointer;
+}

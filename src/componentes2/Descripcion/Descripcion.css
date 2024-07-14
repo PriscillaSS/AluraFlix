@@ -1,0 +1,33 @@
+.descripcion{
+    margin: 24px 0;
+    width: 500px;
+}
+
+.descripcion label{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15PX 0;
+    font-family:"Comic Neue";
+    
+}
+
+.descripcion textarea{
+    color: azure;
+    width: 90%;
+    background: #010014;
+    height: 70%;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:"Comic Neue";
+}
+
+@media (max-width: 730px){
+    .descripcion{
+ 
+        width: 120%;
+    
+    }
+    
+}

@@ -1,0 +1,33 @@
+.categoria{
+    width: 100%;
+    background-color: rgb(49, 52, 54);
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.boton-front-end {
+    font-size: 23px;
+    font-family: "Comic Neue";
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+.colaboradores{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 730px){
+    .categoria{
+ 
+        width: 120%;
+    
+    }
+    
+}

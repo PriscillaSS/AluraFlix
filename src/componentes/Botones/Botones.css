@@ -1,0 +1,22 @@
+.Botones{
+    display: flex;
+    gap: 60px;
+    margin: 0px 0px 0px 60%;
+}
+
+@media (max-width: 1700px){
+    .Botones{
+        display: flex;
+        gap: 50px;
+        margin: 0px 0px 0px 5%;
+    }
+}
+
+@media (max-width: 730px){
+    .Botones{
+        display: flex;
+        gap: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+}
+

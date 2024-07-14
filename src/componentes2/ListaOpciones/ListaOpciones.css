@@ -1,0 +1,37 @@
+.ListaOpciones{
+    margin: 24px 0;
+    width: 500px;
+    cursor: pointer;
+}
+
+
+.ListaOpciones label{
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 15PX 0;
+    font-family:"Comic Neue";
+    
+}
+
+.ListaOpciones select{
+    color: azure;
+    width: 100%;
+    background: #010014;
+    height: 50%;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family:"Comic Neue";
+    cursor: pointer;
+}
+
+
+@media (max-width: 730px){
+    .ListaOpciones{
+ 
+        width: 120%;
+    
+    }
+    
+}
